@@ -111,7 +111,10 @@ body {
 }
 
 header {
-    background: #0099ff url("../img/highlight.png") center bottom no-repeat;
+    background-color: #0099ff;
+    background: url("../img/highlight.png") center bottom no-repeat,
+        url("../img/wave-1.png") bottom right no-repeat,
+        #0099ff;
     padding: 0;
 }
 header .menu {
@@ -153,14 +156,16 @@ header .logo {
 }
 header  h1 {
     width: 80%;
+    height: auto;
     position: relative;
     margin: 0 auto;
 }
 header  h1 img {
-    max-width: 836px;
     width: 100%;
     display: block;
     margin: 0 auto;
+    max-width: 836px;
+    max-height: 246px;
 }
 header .monster {
     margin: 0 auto;
@@ -174,27 +179,160 @@ header .monster img {
     margin-left: -10%;
 }
 
-header .wave {
-    background: url("../img/wave-1.png") bottom right no-repeat;
+.solutions p,
+.welcome p {
+    padding: 0;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
 }
-
-
-
-@media all and (max-width: 768px) {
-    header .wave {
-        background: none;
+.welcome p {
+    color: #003366;
+}
+.solutions p {
+    padding: 30px 0 100px;
+}
+.solutions,
+.welcome {
+    padding: 120px 100px;
+}
+.welcome {
+    background: #daf0ff;
+}
+h2 {
+    font-size: 90px;
+    color: #0099ff;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 90px;
+}
+h3 {
+    font-size: 26px;
+    color: #333333;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.solutions h3 {
+    padding: 0 0 30px;
+}
+.solutions {
+    background: url(../img/wave-2.png) center top no-repeat;
+}
+.solutions ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.solutions ul li:first-child {
+    border-top: 1px solid #ebebeb;
+}
+.solutions ul li {
+    margin: 0;
+    padding: 12px 0;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+}
+.solutions .devices {
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    padding: 120px 0 70px;
+}
+.solutions .devices img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 1080px;
+    max-height: 345px;
+    position: relative;
+    left: -2%;
+}
+.solutions .cols {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.solutions .row {
+    float: left;
+    width: 25%;
+    padding: 0 4.1666%;
+}
+@media all and (max-width: 960px) {
+    header .monster img {
+        margin-left: -30%;
+    }
+    header {
+        background-color: #0099ff;
+        background: url("../img/highlight.png") center bottom no-repeat,
+            #0099ff;
+    }
+    .solutions,
+    .welcome {
+        padding: 10% 10%;
+    }
+    .solutions h3 {
+        text-align: left;
+        clear: both;
+        padding: 20px 0;
+    }
+    .solutions ul {
+        margin: 0 auto;
+    }
+    .solutions p {
+        padding-bottom: 50px;
+    }
+    .solutions ul li:first-child,
+    .solutions ul li {
+        border: none;
+        text-align: left;
+        padding: 6px 10px 6px 0;
+        float: left;
+    }
+    .solutions ul li:last-child:after {
+        content: ""
+    }
+    .solutions ul li:after {
+        content: ", "
+    }
+    .solutions .row {
+        margin: 0;
+        float: none;
+        width: 100%;
     }
 }
 
+
 @media all and (max-width: 480px) {
-    header menu {
-        font-size: 22px;
+    body {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 64px;
+        line-height: 65px;
+
+    }
+    h3 {
+        font-size: 18px;
+        padding
     }
     header .logo {
         padding: 20px 0;
     }
     header .menu {
         padding: 20px 0;
+    }
+    .solutions p {
+        padding: 20px 0;
+    }
+    .solutions ul li:first-child,
+    .solutions ul li {
+        font-size: 16px;
+        padding: 3px 10px 3px 0;
     }
 }
 
