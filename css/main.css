@@ -110,6 +110,14 @@ body {
     color: #333333;
 }
 
+a,
+a:visited {
+    color: #0066cc;
+}
+a:hover {
+    color: #00406a;
+}
+
 header {
     background-color: #0099ff;
     background: url("../img/highlight.png") center bottom no-repeat,
@@ -167,18 +175,26 @@ header  h1 img {
     max-width: 836px;
     max-height: 246px;
 }
+.contact .monster,
 header .monster {
     margin: 0 auto;
     width: 30%;
     max-width: 400px;
 }
+.contact .monster img,
 header .monster img {
     width: 100%;
     max-width: 318px;
     display: block;
     margin-left: -10%;
 }
-
+.contact .monster img {
+    max-width: 256px;
+    margin-left: 50%;
+}
+.results p,
+.team p,
+.path p,
 .solutions p,
 .welcome p {
     padding: 0;
@@ -189,16 +205,29 @@ header .monster img {
 .welcome p {
     color: #003366;
 }
+.results p,
+.team p,
+.path p {
+    padding: 30px 0 100px;;
+}
 .solutions p {
-    padding: 30px 0 100px;
-}
-.solutions,
-.welcome {
-    padding: 120px 100px;
+    padding: 30px  0 100px;
 }
 .welcome {
+    padding: 110px 0 100px;
     background: #daf0ff;
 }
+.solutions {
+    padding: 0px 0px 0;
+}
+.team,
+.results,
+.path {
+    padding: 0px 0 100px;
+    border-top: 1px solid #cccccc;
+    position: relative;
+}
+
 h2 {
     font-size: 90px;
     color: #0099ff;
@@ -216,6 +245,7 @@ h3 {
     margin: 0;
     padding: 0;
 }
+.path h3,
 .solutions h3 {
     padding: 0 0 30px;
 }
@@ -253,14 +283,145 @@ h3 {
     position: relative;
     left: -2%;
 }
+.team ul,
+.results .references,
+.path .cols,
 .solutions .cols {
-    max-width: 960px;
+    max-width: 1030px;
     margin: 0 auto;
+    overflow: hidden;
+    list-style-type: none;
 }
+.team li,
+.results .references li,
+.path .row,
 .solutions .row {
     float: left;
-    width: 25%;
-    padding: 0 4.1666%;
+    width: 29.33%;
+    padding: 0 2%;
+}
+.path h3 {
+    text-align: left;
+}
+.path .row p {
+    padding: 0;
+    text-align: left;
+    font-size: 18px;
+}
+.team:before,
+.results:before,
+.path:before {
+    content: "";
+    width: 147px;
+    height: 19px;
+    background: url("../img/wave-3.png") top center no-repeat;
+    margin: 0px auto 0;
+    top: -1px;
+    display: block;
+    position: relative;
+}
+
+.solutions h2,
+.team h2,
+.results h2,
+.path h2 {
+    padding: 90px 0 0;
+}
+.results .references {
+    list-style-type: none;
+    padding: 0 0 75px;
+    position: relative;
+}
+.references a,
+.references a:visited,
+.references a:hover {
+    display: block;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+}
+.references img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+}
+footer {
+    line-height: 32px;
+    text-align: center;
+    color: #0099ff;
+    background: #00406a;
+    padding: 100px 70px;
+    font-size: 18px;
+}
+.navigation {
+    margin:0 auto;
+    height: 18px;
+}
+.navigation div {
+    float:left;
+    padding: 0px 0 0;
+    position:relative;
+    left:50%;
+
+}
+.navigation a {
+    margin: 0px 10px 0;
+    display: block;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: #dcdcdc;
+    float: left;
+    position:relative;
+    right:50%;
+}
+.navigation a.selected {
+    background-color: #0079c9;
+}
+.testimonials {
+    padding: 80px 0 50px;
+}
+.testimonials .row {
+    font-size: 24px;
+}
+
+.testimonials .row p {
+    padding: 0px 0 30px;
+}
+.testimonials .row p.text {
+    font-style: italic;
+    padding: 30px 0 30px;
+}
+.team p {
+    padding: 30px 0 50px;
+}
+.team ul {
+    padding: 0;
+}
+.team ul p {
+    line-height: 46px;
+    font-size: 26px;
+    padding: 40px 0 20px;
+
+}
+.team ul p strong ,
+.team ul p span,
+.team ul p a {
+    display: block;
+    float: left;
+    width: 90%;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+    text-align: center;
+    overflow: hidden;
+}
+.contact {
+    background: url("../img/wave-5.png") left bottom no-repeat,
+        url("../img/highlight.png") bottom center no-repeat,
+        #0099ff;
 }
 @media all and (max-width: 960px) {
     header .monster img {
@@ -271,10 +432,23 @@ h3 {
         background: url("../img/highlight.png") center bottom no-repeat,
             #0099ff;
     }
+    .path,
+    .team,
+    .results,
     .solutions,
     .welcome {
-        padding: 10% 10%;
+        padding: 0% 10% 10%;
     }
+    .welcome {
+        padding-top: 10%;
+    }
+    .solutions h2,
+    .team h2,
+    .results h2,
+    .path h2 {
+        padding: 10% 0 0;
+    }
+    .path h3,
     .solutions h3 {
         text-align: left;
         clear: both;
@@ -283,6 +457,9 @@ h3 {
     .solutions ul {
         margin: 0 auto;
     }
+    .team p,
+    .results p,
+    .path p,
     .solutions p {
         padding-bottom: 50px;
     }
@@ -293,19 +470,69 @@ h3 {
         padding: 6px 10px 6px 0;
         float: left;
     }
+
     .solutions ul li:last-child:after {
         content: ""
     }
     .solutions ul li:after {
         content: ", "
     }
+    .path .cols {
+        padding-bottom: 5%;
+    }
+    .path .row,
     .solutions .row {
         margin: 0;
         float: none;
         width: 100%;
+        padding: 0;
+    }
+    .solutions .devices {
+        padding: 60px 0 30px;
+    }
+    .results .references {
+        padding-bottom: 10%;
+    }
+    .navigation a {
+        width: 14px;
+        height: 14px;
+        margin: 0 8px;
+    }
+    .testimonials {
+        padding: 5% 0;
+    }
+    .team ul img {
+        display: none;
+    }
+    .team ul p {
+        padding: 0;
+        text-align: center;
+    }
+    .team ul p strong ,
+    .team ul p span,
+    .team ul p a {
+        float: none;
+        width: auto;
+        display: inline;
+        margin: 0;
+        text-overflow: ellipsis;
+        text-align: left;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+    .team ul p strong:after,
+    .team ul p span:after {
+        content: ", "
+    }
+    .team ul p span:last-child:after {
+        content: "";
+    }
+    .team li {
+        width: auto;
+        padding: 0;
+        float: none;
     }
 }
-
 
 @media all and (max-width: 480px) {
     body {
@@ -318,7 +545,6 @@ h3 {
     }
     h3 {
         font-size: 18px;
-        padding
     }
     header .logo {
         padding: 20px 0;
@@ -333,6 +559,21 @@ h3 {
     .solutions ul li {
         font-size: 16px;
         padding: 3px 10px 3px 0;
+    }
+    .path .row p {
+        font-size: 13px;
+    }
+    .navigation a {
+        width: 8px;
+        height: 8px;
+        margin: 0 5px;
+    }
+    .testimonials .row {
+        font-size: 17px;
+    }
+    .team ul p {
+        font-size: 17px;
+        line-height: 26px;
     }
 }
 
