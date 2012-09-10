@@ -14,15 +14,15 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
-    <body><!--
+    <body>
         <header>
             <div class="menu">
                 <menu>
-                    <li><a href="" title="">Řešení</a></li>
-                    <li><a href="" title="">Cesta k cíli </a></li>
-                    <li><a href="" title="">výsledky</a></li>
-                    <li><a href="" title="">Tým</a></li>
-                    <li><a href="" title="">kontakt</a></li>
+                    <li><a href="#solutions" title="">Řešení</a></li>
+                    <li><a href="#path" title="">Cesta k cíli </a></li>
+                    <li><a href="#results" title="">Výsledky</a></li>
+                    <li><a href="#team" title="">Tým</a></li>
+                    <li><a href="#contact" title="">Kontakt</a></li>
                 </menu>
             </div>
             <div class="logo">
@@ -42,7 +42,7 @@
                 pomohou zviditelnit se nejen <strong>ve světě Internetu</strong>.
             </p>
         </div>
-        <div class="solutions">
+        <div class="solutions" id="solutions">
             <h2>
                 Vyřešíme za Vás
             </h2>
@@ -97,7 +97,7 @@
                 i s jinými projekty z oblasti marketingu.
             </p>
         </div>
-        <div class="path">
+        <div class="path" id="path">
             <h2>Cesta k cíli</h2>
             <p>
                 Každý projekt je jako stavba, kde má vše své místo i čas. Netfinity staví na <strong>3 základních
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </div>
-        <div class="results">
+        <div class="results" id="results">
             <h2>
                 Výsledky
             </h2>
@@ -211,7 +211,7 @@
                 </div>
             </div>
         </div>
-        <div class="team">
+        <div class="team" id="team">
             <h2>Tým</h2>
             <p>
                 V Netfinity disponujeme řadou specialistů, kteří se o Vás rádi postarají. Zařídíme, 
@@ -271,43 +271,49 @@
                     </p>
                 </li>
             </ul>
-        </div>-->
-        <div class="contact">
-            <h3>Kontakt</h3>
+        </div>
+        <div class="contact" id="contact">
+            <h2>Kontakt</h2>
             <p>
-                Telefon: <strong>604 547 132</strong>     E-mail:  <strong>
+                Telefon: <strong class="phone">604 547 132</strong>     E-mail:  <strong>
                 <a href="mailto:info@netfinity.cz" title="info@netfinity.cz">info@netfinity.cz</a></strong><br>
-                Sídlo:  <strong>Tusarova 55, P7</strong> <a href="" title=""><span></span></a>
+                Sídlo:  <strong>Tusarova 55, P7</strong> <a class="map" href="" title=""><span class="circle"></span><span class="arrow"></span></a>
             </p>
-            <form>
+            <form class="clearfix" method="post" action="#contact">
                 <div class="row">
                     <div>
-                        <input type="text" name="" value=""/>
+                        <input type="text" name="name" value=""/>
                     </div>
                     <div>
-                        <input type="text" name="" value=""/>
+                        <input type="text" name="email" value=""/>
                     </div>
                     <div>
-                        <input type="text" name="" value=""/>
+                        <input type="text" name="phone" value=""/>
                     </div>
                     <div>
-                        <input type="text" name="" value=""/>
+                        <input type="text" name="company" value=""/>
                     </div>
                     <div>
-                        <input type="text" name="" value=""/>
+                        <input type="text" name="www" value=""/>
                     </div>
                 </div>
                 <div class="row">
                     <div>
-                        <select name="">
-                            <option></option>
+                        <select name="project">
+                            <option>— Vyberte typ projektu —</option>
+                            <option value="Webové stránky">Webové stránky</option>
+                            <option value="E-shop">E-shop</option>
+                            <option value="Reklama">Reklama</option>
+                            <option value="Brand a Identita">Brand a Identita</option>
+                            <option value="Produkce">Produkce</option>
+                            <option value="Ostatní">Ostatní</option>
                         </select>
                     </div>
                     <div>
-                        <textarea name=""></textarea>
+                        <textarea name="notes"></textarea>
                     </div>
-                    <div>
-                        <input type="submit" name="" value="Odeslat" />
+                    <div class="submit">
+                        <input type="submit" name="submit" value="Odeslat" />
                     </div>
                 </div>
             </form>
@@ -322,6 +328,9 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+		<script type="text/javascript" src="js/greensock/plugins/CSSPlugin.min.js"></script>
+		<script type="text/javascript" src="js/greensock/easing/EasePack.min.js"></script>
+		<script type="text/javascript" src="js/greensock/TweenLite.min.js"></script> 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
@@ -333,3 +342,45 @@
         </script>
     </body>
 </html>
+<?php
+
+$message = <<<EOD
+<html>
+<body>
+    <p>Toto je automaticky odeslaná zpráva ze stránek netfinity.cz</p>
+    <table>
+       <tr><td>Jméno:</td><td>{NAME}</td></tr>
+       <tr><td>E-mail:</td><td>{EMAIL}</td></tr>
+       <tr><td>Telefon:</td><td>{PHONE}</td></tr>
+       <tr><td>Firma:</td><td>{COMPANY}</td></tr>
+       <tr><td>Web:</td><td>{WWW}</td></tr>
+       <tr><td>Projekt:</td><td>{PROJECT}</td></tr>
+       <tr><td>Zpráva:</td><td>{NOTES}</td></tr>
+    </table>
+</body>
+</html>
+EOD;
+
+function send_email() {
+    global $message;
+
+    $fields = array("name", "email", "phone", "company", "www", "project", "notes");
+
+    foreach ($fields as $field) {
+        $message = str_replace("{".strtoupper($field)."}", htmlspecialchars($_POST[$field]), $message);
+    }
+
+    $headers = "From: mailer@netfinity.cz <mailer@netfinity.cz>\n";
+    $headers .= "Content-Type: text/html; charset=utf-8\n";
+
+    mail("info@netfinity.cz", "Zprava ze stranek netfinity.cz (robot)", $message, $headers);
+}
+
+if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+    send_email();
+    exit;
+} else if (isset($_POST['submit'])) {
+    send_email();
+}
+
+?>

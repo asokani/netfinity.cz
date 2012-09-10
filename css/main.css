@@ -321,11 +321,15 @@ h3 {
     position: relative;
 }
 
+.contact h2,
 .solutions h2,
 .team h2,
 .results h2,
 .path h2 {
     padding: 90px 0 0;
+}
+.contact h2 {
+    color: white;
 }
 .results .references {
     list-style-type: none;
@@ -420,9 +424,82 @@ footer {
 }
 .contact {
     background: url("../img/wave-5.png") left bottom no-repeat,
+        url("../img/wave-4.png") top center no-repeat,
         url("../img/highlight.png") bottom center no-repeat,
         #0099ff;
 }
+.contact p {
+    text-align: center;
+    color: #daf0ff;
+    line-height: 60px;
+    padding: 70px 0 120px;
+    margin: 0;
+}
+.contact p .phone {
+    padding-right: 20px;
+}
+.contact p a,
+.contact p a:visited {
+    color: #daf0ff;
+}
+.contact p a:hover {
+    color: #00406a;
+}
+.contact form {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 0 250px;
+}
+.contact form .row {
+    padding: 0 2%;
+    width: 44%;
+    float: left;
+}
+.contact form .row div {
+    background: #92d5ff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 16px 0;
+}
+.contact form select,
+.contact form textarea,
+.contact form input {
+    width: 100%;
+    padding: 0;
+    margin:0;
+    border: none;
+    background: transparent;
+    color: #0079c9;
+    font-family: 'geogrotesque_rgregular', Verdana, Verdana, Geneva, sans-serif;
+    font-size: 28px;
+    height: 32px;
+}
+.contact form .row div.submit {
+    background: #02426c;
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+.contact form .submit input {
+    color: white;
+    padding: 10px;
+    height: 52px;
+
+}
+.contact form textarea {
+    height: 188px;
+    resize: none;
+}
+.contact form select {
+    background: #92d5ff;
+}
+.contact form select:focus,
+.contact form textarea:focus,
+.contact form input:focus {
+    outline: none;
+}
+
 @media all and (max-width: 960px) {
     header .monster img {
         margin-left: -30%;
@@ -432,6 +509,7 @@ footer {
         background: url("../img/highlight.png") center bottom no-repeat,
             #0099ff;
     }
+    .contact,
     .path,
     .team,
     .results,
@@ -439,9 +517,14 @@ footer {
     .welcome {
         padding: 0% 10% 10%;
     }
+    .contact {
+        padding-bottom: 0;
+        padding-top: 10%;
+    }
     .welcome {
         padding-top: 10%;
     }
+    .contact h2,
     .solutions h2,
     .team h2,
     .results h2,
@@ -532,6 +615,22 @@ footer {
         padding: 0;
         float: none;
     }
+    .contact {
+        background:
+            url("../img/wave-4.png") top center no-repeat,
+            url("../img/highlight.png") bottom center no-repeat,
+            #0099ff;
+    }
+    .contact p {
+        padding: 30px 0 50px;
+    }
+    .contact form {
+        padding: 0 0 20%;
+    }
+    .contact form .row {
+        float: none;
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -571,9 +670,15 @@ footer {
     .testimonials .row {
         font-size: 17px;
     }
+    .contact p,
     .team ul p {
         font-size: 17px;
         line-height: 26px;
+    }
+    footer {
+        font-size: 13px;
+        line-height: 20px;
+        padding: 10%;
     }
 }
 
