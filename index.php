@@ -138,76 +138,72 @@
             <p>
                 Každý pixel je pro nás důležitý, protože dokonalý celek mohou tvořit pouze <strong>precizní detaily</strong>.
             </p>
-            <ul class="references clearfix">
-                <li>
-                    <a href="" title="">
-                        <img src="img/references/provident-thumbnail.png" /><br>
-                        Provident
-                    </a>
-                </li>
-                <li>
-                    <a href="" title="">
-                        <img src="img/references/coffee-thumbnail.png" /><br>
-                        Káva Růžová</a>
-                    </a>
-                </li>
-                <li>
-                    <a href="" title="">
-                        <img src="img/references/ligne-roset-thumbnail.png" /><br>
-                        Ligne Roset
-                    </a>
-                </li>
-                <li style="display: none;">
-                    <a href="" title="">
-                        <img src="img/references/coffee-thumbnail.png" /><br>
-                        Káva Růžová</a>
-                    </a>
-                </li>
-                <li style="display: none;">
-                    <a href="" title="">
-                        <img src="img/references/ligne-roset-thumbnail.png" /><br>
-                        Ligne Roset
-                    </a>
-                </li>
-            </ul>
-            <div class="navigation clearfix">
+            <div class="references">
+                <div class="holder clearfix">
+                    <div class="row">
+                        <a href="" title="">
+                            <img src="img/references/provident-thumbnail.png" /><br>
+                            Provident
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="" title="">
+                            <img src="img/references/coffee-thumbnail.png" /><br>
+                            Káva Růžová</a>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="" title="">
+                            <img src="img/references/ligne-roset-thumbnail.png" /><br>
+                            Ligne Roset
+                        </a>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <a href="" title="">
+                            <img src="img/references/coffee-thumbnail.png" /><br>
+                            Káva Růžová</a>
+                        </a>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <a href="" title="">
+                            <img src="img/references/ligne-roset-thumbnail.png" /><br>
+                            Ligne Roset
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation clearfix navigation-references">
                 <div>
-                    <a href="" title=""></a>
-                    <a class="selected" href="" title=""></a>
-                    <a href="" title=""></a>
-                    <a href="" title=""></a>
                 </div>
             </div>
             <div class="testimonials">
-                <div class="row">
-                    <p class="text">
-                        Se společností Netfinity jsme navázali spolupráci před 2 lety. Za tuto dobu jsme měli možnost spolupracovat
-                        na řadě projektů. Netfinity přichází stále s novými nápady a možnostmi, jak by se daly naše projekty řešit
-                        více efektivně, což velmi oceňujeme. Máme tak agenturu, která se nesoustředí pouze na svěřené úkoly, ale
-                        stále nám přináší něco nového.”
-                    </p>
-                    <p>
-                        <strong>Arnold Ptasznik</strong><br>Marketing manager, Provident a.s.
-                    </p>
-                </div>
-                <div class="row" style="display: none;">
-                    <p class="text">
-                        dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
-                        vel eum iriure dolor in hendrerit in vulputate velit esse moles
-                    </p>
-                    <p>
-                        <strong>Arnold Ptasznik</strong><br>Marketing manager, Provident a.s.
-                    </p>
+                <div class="holder clearfix">
+                    <div class="row">
+                        <p class="text">
+                            Se společností Netfinity jsme navázali spolupráci před 2 lety. Za tuto dobu jsme měli možnost spolupracovat
+                            na řadě projektů. Netfinity přichází stále s novými nápady a možnostmi, jak by se daly naše projekty řešit
+                            více efektivně, což velmi oceňujeme. Máme tak agenturu, která se nesoustředí pouze na svěřené úkoly, ale
+                            stále nám přináší něco nového.”
+                        </p>
+                        <p>
+                            <strong>Arnold Ptasznik</strong><br>Marketing manager, Provident a.s.
+                        </p>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <p class="text">
+                            dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
+                            vel eum iriure dolor in hendrerit in vulputate velit esse moles
+                        </p>
+                        <p>
+                            <strong>Arnold Ptasznik</strong><br>Marketing manager, Provident a.s.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="navigation clearfix">
+            <div class="navigation clearfix navigation-testimonials">
                 <div>
-                    <a href="" title=""></a>
-                    <a class="selected" href="" title=""></a>
-                    <a href="" title=""></a>
-                    <a href="" title=""></a>
                 </div>
             </div>
         </div>
