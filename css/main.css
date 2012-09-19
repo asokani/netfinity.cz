@@ -150,6 +150,7 @@ header li {
     position:relative;
     right:50%;
 }
+header li a:visited,
 header li a {
     color: white;
     display: block;
@@ -428,7 +429,7 @@ footer {
 .team ul p a {
     display: block;
     float: left;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     text-overflow: ellipsis;
     text-align: center;
@@ -464,7 +465,7 @@ footer {
 }
 .contact form .row {
     padding: 0 2%;
-    width: 44%;
+    width: 46%;
     float: left;
 }
 .contact form .row div {
@@ -679,7 +680,7 @@ footer {
         height: 8px;
         margin: 0 5px;
     }
-    .testimonials .row {
+    .results .testimonials .row {
         font-size: 17px;
     }
     .contact p,
@@ -694,9 +695,6 @@ footer {
     }
 }
 
-@media all and (max-width: 320px) {
-
-}
 
 
 
