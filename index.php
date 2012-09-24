@@ -19,7 +19,7 @@
         <header>
             <div class="menu">
                 <menu>
-                    <li><a href="#solutions" title="">Řešení</a></li>
+                    <li><a href="#solutions" title="">Vyřešíme za Vás</a></li>
                     <li><a href="#path" title="">Cesta k cíli</a></li>
                     <li><a href="#results" title="">Výsledky</a></li>
                     <li><a href="#team" title="">Tým</a></li>
@@ -38,9 +38,9 @@
         <div class="welcome">
             <p>
                 <strong>Dobrý den</strong>, jsme agentura, která se specializuje na digitální
-                marketing. Naší hlavní náplní jsou internetové projekty.
+                marketing. Naší&nbsp;hlavní náplní jsou internetové projekty.
                 Zabýváme se i dalšími činnostmi, které Vám
-                pomohou zviditelnit se nejen&nbsp;<strong>ve&nbsp;světě&nbsp;Internetu</strong>.
+                pomohou zviditelnit se nejen <strong>ve světě Internetu</strong>.
             </p>
         </div>
         <div class="solutions" id="solutions">
@@ -49,10 +49,14 @@
             </h2>
 
             <p>
-                Navrhujeme a následně vyvíjíme řešení, která maximalizují efektivitu&nbsp;práce a Vám zaručují <strong>úspěšné výsledky</strong>.
-                Každý projekt i&nbsp;klient&nbsp;je&nbsp;unikátní a tak k nim také přistupujeme.
+                Navrhujeme a následně vyvíjíme řešení, která maximalizují efektivitu práce a&nbsp;Vám zaručují úspěšné výsledky.
+                Každý projekt i&nbsp;klient je unikátní a tak k nim také přistupujeme.
             </p>
-            <div class="cols clearfix">
+            <a href="#" class="more-see" data-more="more-solutions">
+                <span class="circle"></span>
+                <span class="more">více</span>
+            </a>
+            <div class="cols clearfix" style="display: none;" id="more-solutions">
                 <div class="row">
                     <h3>Digital média</h3>
                     <ul>
@@ -94,16 +98,20 @@
                 <img src="img/devices.png" alt="" />
             </div>
             <p>
-                Nabízíme i další přidané hodnoty, proto nás neváhejte&nbsp;<a href="#contact" title="Kontakt">kontaktovat</a>&nbsp;i&nbsp;s&nbsp;jinými projekty z oblasti marketingu.
+                Nabízíme i další přidané hodnoty, proto nás neváhejte <a href="#contact" title="Kontakt">kontaktovat</a> i&nbsp;s&nbsp;jinými projekty z oblasti marketingu.
             </p>
         </div>
         <div class="path" id="path">
             <h2>Cesta k&nbsp;cíli</h2>
             <p>
-                Každý projekt je jako stavba, kde má vše své místo i čas. Netfinity staví na <strong>3 základních
-                pilířích</strong>. Identifikujeme potřeby klienta, navrhneme možná řešení a následně vše uvedeme v realitu.
+                Každý projekt je jako stavba, kde má vše své místo i čas. Netfinity staví na&nbsp;3&nbsp;základních
+                pilířích. Identifikujeme potřeby klienta, navrhneme možná řešení a&nbsp;následně vše uvedeme v realitu.
             </p>
-            <div class="cols clearfix">
+            <a href="#" class="more-see" data-more="more-path">
+                <span class="circle"></span>
+                <span class="more">více</span>
+            </a>
+            <div class="cols clearfix" style="display: none;" id="more-path">
                 <div class="row">
                     <h3>1. Analýza je základ</h3>
                     <p>
@@ -136,7 +144,7 @@
                 Výsledky
             </h2>
             <p>
-                Každý pixel je pro nás důležitý, protože dokonalý celek mohou tvořit pouze <strong>precizní detaily</strong>.
+                Každý pixel je pro nás důležitý, protože dokonalý celek mohou tvořit pouze&nbsp;precizní detaily.
             </p>
             <div class="references">
                 <div class="holder clearfix">
@@ -222,7 +230,7 @@
                 <div class="holder clearfix">
                     <div class="row">
                         <p class="text">
-                            &#8220;Se společností Netfinity jsme navázali spolupráci před 2 lety. Za tuto dobu jsme měli možnost spolupracovat na řadě projektů. Netfinity se na projekty dívá našima očima a přichází stále s novými nápady a možnostmi, jak by se&nbsp;daly řešit více efektivně, což velmi oceňujeme. Máme tak agenturu, která se&nbsp;nesoustředí pouze na svěřené úkoly, ale stále nám přináší něco nového. U&nbsp;kampaní si ceníme nadprůměrných výsledků, kterých se nám společně daří&nbsp;dosáhnout.&#8221;
+                            &#8220;Se společností Netfinity jsme navázali spolupráci před 2 lety. Za tuto dobu jsme měli možnost spolupracovat na řadě projektů. Netfinity se na projekty dívá našima očima a&nbsp;přichází stále s novými nápady a možnostmi, jak by se&nbsp;daly řešit více efektivně, což velmi oceňujeme. Máme tak agenturu, která se&nbsp;nesoustředí pouze na svěřené úkoly, ale stále nám přináší něco nového. U&nbsp;kampaní si ceníme nadprůměrných výsledků, kterých se nám společně daří&nbsp;dosáhnout.&#8221;
                         </p>
                         <p>
                             <strong>Arnold Ptasznik</strong><br>Marketing Specialist, Provident Financial s.r.o.
@@ -254,8 +262,7 @@
         <div class="team" id="team">
             <h2>Tým</h2>
             <p>
-                V Netfinity disponujeme řadou specialistů, kteří se o Vás rádi postarají. Zařídíme, 
-                aby se Váš projekt stal <strong>úspěšným</strong>.
+                V Netfinity disponujeme řadou specialistů, kteří se o Vás rádi postarají. Zařídíme,&nbsp;aby se Váš projekt stal úspěšným.
             </p>
             <ul>
                 <li>
@@ -282,6 +289,12 @@
                         <a href="mailto:petr.spevacek@netfinity.cz" title="petr.spevacek@netfinity.cz">petr.spevacek@netfinity.cz</a>
                     </p>
                 </li>
+            </ul>
+            <a href="#" class="more-see" style="margin:80px auto 60px;" data-more="more-team">
+                <span class="circle"></span>
+                <span class="more">více</span>
+            </a>
+            <ul style="display: none;" id="more-team">
                 <li>
                     <img src="img/face-monster-4.png" alt="" />
                     <p class="clearfix">
@@ -315,9 +328,13 @@
         <div class="contact" id="contact">
             <h2>Kontakt</h2>
             <p>
-                Telefon: <strong class="phone">604&nbsp;547&nbsp;132</strong>
-                Email:&nbsp;<strong><a href="mailto:info@netfinity.cz" title="info@netfinity.cz">info@netfinity.cz</a></strong>
-                Sídlo:&nbsp;<strong>Tusarova&nbsp;55,&nbsp;P7</strong> <a class="map" href="ddd" title="ddd"><span class="circle"></span><span class="arrow"></span></a>
+                <strong>Telefon</strong>: <span class="phone">604&nbsp;547&nbsp;132</span>
+                <strong>Email</strong>:&nbsp;<a href="mailto:info@netfinity.cz" title="info@netfinity.cz">info@netfinity.cz</a>
+                <strong>Sídlo</strong>:&nbsp;Tusarova&nbsp;55,&nbsp;P7
+                <a class="map" href="https://maps.google.cz/maps?ie=UTF8&cid=18411940974622719731" title="Netfinity Digital Media s.r.o na mapě">
+                    <span class="circle"></span>
+                    <span class="arrow"></span>
+                </a>
             </p>
             <form class="clearfix" method="post" action="#contact">
                 <div class="row">
@@ -363,11 +380,11 @@
         </div>
         <footer>
             <p>Netfinity Digital Media s.r.o., Spisová značka: C 144678 vedená u rejstříkového soudu v Praze,
-            IČ: 28480392, DIČ: CZ28480392, Sídlo: Praha 7, Tusarova 1215/55, PSČ 17000</p>
+            IČ:&nbsp;28480392, DIČ:&nbsp;CZ28480392, Sídlo: Praha 7, Tusarova 1215/55, PSČ 17000</p>
         </footer>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 		<script type="text/javascript" src="js/greensock/plugins/CSSPlugin.min.js"></script>
 		<script type="text/javascript" src="js/greensock/easing/EasePack.min.js"></script>
 		<script type="text/javascript" src="js/greensock/TweenLite.min.js"></script> 

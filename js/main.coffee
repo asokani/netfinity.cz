@@ -115,3 +115,12 @@ jQuery ->
   new Form()
   new Scroller("references", 3, {"padding": 0.02, "width": 0.29333})
   new Scroller("testimonials", 1, {"padding": 0, "width": 1})
+
+  $('.more-see').click((event) ->
+    node = $(event.target).closest("a")
+    more_id = node.attr("data-more")
+    node.hide()
+    $("#" + more_id).show()
+
+    return false
+  )

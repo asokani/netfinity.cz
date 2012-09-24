@@ -178,9 +178,17 @@
       "padding": 0.02,
       "width": 0.29333
     });
-    return new Scroller("testimonials", 1, {
+    new Scroller("testimonials", 1, {
       "padding": 0,
       "width": 1
+    });
+    return $('.more-see').click(function(event) {
+      var more_id, node;
+      node = $(event.target).closest("a");
+      more_id = node.attr("data-more");
+      node.hide();
+      $("#" + more_id).show();
+      return false;
     });
   });
 
