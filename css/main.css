@@ -158,6 +158,10 @@ header li a {
     text-transform: uppercase;
     padding: 0 22px;
     white-space: nowrap;
+	font-size: 24px;
+}
+header li a:hover {
+    color: #003366;
 }
 header .logo {
     padding: 100px 0 50px;
@@ -185,13 +189,13 @@ header .monster {
 .contact .monster img,
 header .monster img {
     width: 100%;
-    max-width: 318px;
+    max-width: 380px;
     display: block;
-    margin-left: -10%;
+    margin-left: -30%;
 }
 .contact .monster img {
     max-width: 256px;
-    margin-left: 50%;
+    margin-left: 70%;
 }
 .results p,
 .team p,
@@ -202,9 +206,10 @@ header .monster img {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
+	letter-spacing: 0.5px;
 }
 .welcome p {
-    color: #003366;
+    color: #84ceff;
 }
 .results p,
 .team p,
@@ -216,7 +221,7 @@ header .monster img {
 }
 .welcome {
     padding: 110px 0 100px;
-    background: #daf0ff;
+    background: #00406a;
 }
 .solutions {
     padding: 0px 0px 0;
@@ -371,6 +376,11 @@ footer {
     padding: 100px 70px;
     font-size: 18px;
 }
+footer p {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
 .navigation {
     margin:0 auto;
     height: 18px;
@@ -420,11 +430,11 @@ footer {
 }
 .team ul p {
     line-height: 46px;
-    font-size: 26px;
+    font-size: 22px;
     padding: 40px 0 20px;
 
 }
-.team ul p strong ,
+.team ul p strong,
 .team ul p span,
 .team ul p a {
     display: block;
@@ -434,6 +444,10 @@ footer {
     text-overflow: ellipsis;
     text-align: center;
     overflow: hidden;
+}
+.team ul p strong {
+    font-size: 120%;
+
 }
 .contact {
     background: url("../img/wave-5.png") left bottom no-repeat,
@@ -446,7 +460,8 @@ footer {
     color: #daf0ff;
     line-height: 60px;
     padding: 70px 0 120px;
-    margin: 0;
+    margin: 0 auto;
+	max-width: 600px;
 }
 .contact p .phone {
     padding-right: 20px;
@@ -497,7 +512,7 @@ footer {
 .contact form .submit input {
     color: white;
     padding: 10px;
-    height: 52px;
+    height: 61px;
 
 }
 .contact form textarea {
@@ -662,7 +677,12 @@ footer {
         padding: 20px 0;
     }
     header .menu {
-        padding: 20px 0;
+        padding: 10px 0;
+    }
+    header li a:visited,
+    header li a {
+	font-size: 14px;
+    padding: 0 5px;
     }
     .solutions p {
         padding: 20px 0;
@@ -687,6 +707,9 @@ footer {
     .team ul p {
         font-size: 17px;
         line-height: 26px;
+    }
+    .contact p .phone {
+    padding-right: 0px;
     }
     footer {
         font-size: 13px;
