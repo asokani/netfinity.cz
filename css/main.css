@@ -120,8 +120,8 @@ a:hover {
 
 header {
     background-color: #0099ff;
-    background: url("../img/highlight.png") center bottom no-repeat,
-        url("../img/wave-1.png") bottom right no-repeat,
+    background: url("../img/wave-1.png") bottom right no-repeat,
+        url("../img/highlight.png") center bottom no-repeat,
         #0099ff;
     padding: 0;
 }
