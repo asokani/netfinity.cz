@@ -6,12 +6,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>Netfinity Digital Media s.r.o.</title>
+        <meta name="description" content="Jsme agentura, která se specializuje na digitální marketing.">
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="favicon.png" />
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body>
@@ -19,7 +20,7 @@
             <div class="menu">
                 <menu>
                     <li><a href="#solutions" title="">Řešení</a></li>
-                    <li><a href="#path" title="">Cesta k cíli </a></li>
+                    <li><a href="#path" title="">Cesta k cíli</a></li>
                     <li><a href="#results" title="">Výsledky</a></li>
                     <li><a href="#team" title="">Tým</a></li>
                     <li><a href="#contact" title="">Kontakt</a></li>
@@ -39,17 +40,17 @@
                 <strong>Dobrý den</strong>, jsme agentura, která se specializuje na digitální
                 marketing. Naší hlavní náplní jsou internetové projekty.
                 Zabýváme se i dalšími činnostmi, které Vám
-                pomohou zviditelnit se nejen <strong>ve světě Internetu</strong>.
+                pomohou zviditelnit se nejen&nbsp;<strong>ve&nbsp;světě&nbsp;Internetu</strong>.
             </p>
         </div>
         <div class="solutions" id="solutions">
             <h2>
-                Vyřešíme za Vás
+                Vyřešíme za&nbsp;Vás
             </h2>
 
             <p>
-                Navrhujeme a následně vyvíjíme řešení, která maximalizují efektivitu práce a Vám zaručují <strong>úspěšné výsledky</strong>.
-                Každý projekt i klient je unikátní a tak k nim také přistupujeme.
+                Navrhujeme a následně vyvíjíme řešení, která maximalizují efektivitu&nbsp;práce a Vám zaručují <strong>úspěšné výsledky</strong>.
+                Každý projekt i&nbsp;klient&nbsp;je&nbsp;unikátní a tak k nim také přistupujeme.
             </p>
             <div class="cols clearfix">
                 <div class="row">
@@ -93,12 +94,11 @@
                 <img src="img/devices.png" alt="" />
             </div>
             <p>
-                Nabízíme i další přidané hodnoty,proto nás neváhejte <a href="mailto:info@netfinity.cz" title="info@netfinity.cz">kontaktovat</a>
-                i s jinými projekty z oblasti marketingu.
+                Nabízíme i další přidané hodnoty, proto nás neváhejte&nbsp;<a href="#contact" title="Kontakt">kontaktovat</a>&nbsp;i&nbsp;s&nbsp;jinými projekty z oblasti marketingu.
             </p>
         </div>
         <div class="path" id="path">
-            <h2>Cesta k cíli</h2>
+            <h2>Cesta k&nbsp;cíli</h2>
             <p>
                 Každý projekt je jako stavba, kde má vše své místo i čas. Netfinity staví na <strong>3 základních
                 pilířích</strong>. Identifikujeme potřeby klienta, navrhneme možná řešení a následně vše uvedeme v realitu.
@@ -141,33 +141,75 @@
             <div class="references">
                 <div class="holder clearfix">
                     <div class="row">
-                        <a href="" title="">
+                        <a href="#results" title="Provident">
                             <img src="img/references/provident-thumbnail.png" /><br>
                             Provident
                         </a>
                     </div>
                     <div class="row">
-                        <a href="" title="">
+                        <a href="#results" title="Káva Růžová">
                             <img src="img/references/coffee-thumbnail.png" /><br>
-                            Káva Růžová</a>
+                            Káva Růžová
                         </a>
                     </div>
                     <div class="row">
-                        <a href="" title="">
+                        <a href="#results" title="Ligne Roset">
                             <img src="img/references/ligne-roset-thumbnail.png" /><br>
                             Ligne Roset
                         </a>
                     </div>
                     <div class="row" style="display: none;">
-                        <a href="" title="">
-                            <img src="img/references/coffee-thumbnail.png" /><br>
-                            Káva Růžová</a>
+                        <a href="#results" title="Bee Control">
+                            <img src="img/references/bee-control-thumbnail.png" /><br>
+                            Bee Control
                         </a>
                     </div>
                     <div class="row" style="display: none;">
-                        <a href="" title="">
-                            <img src="img/references/ligne-roset-thumbnail.png" /><br>
-                            Ligne Roset
+                        <a href="#results" title="Exegolf">
+                            <img src="img/references/exegolf-thumbnail.png" /><br>
+                            Exegolf
+                        </a>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <a href="#results" title="Jak třídit">
+                            <img src="img/references/jak-tridit-thumbnail.png" /><br>
+                            Jak třídit
+                        </a>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <a href="#results" title="Ateliér Dako">
+                            <img src="img/references/atelier-dako-thumbnail.png" /><br>
+                            Ateliér Dako
+                        </a>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <a href="#results" title="Hyposervis">
+                            <img src="img/references/hyposervis-thumbnail.png" /><br>
+                            Hyposervis
+                        </a>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <a href="#results" title="Království hodin">
+                            <img src="img/references/kralovstvi-hodin-thumbnail.png" /><br>
+                            Království hodin
+                        </a>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <a href="#results" title="Esselte store">
+                            <img src="img/references/esselte-store-thumbnail.png" /><br>
+                            Esselte store
+                        </a>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <a href="#results" title="Namaluj originál">
+                            <img src="img/references/namaluj-original-thumbnail.png" /><br>
+                            Namaluj originál
+                        </a>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <a href="#results" title="Hypotéka bez rizika">
+                            <img src="img/references/hypoteka-bez-rizika-thumbnail.png" /><br>
+                            Hypotéka bez rizika
                         </a>
                     </div>
                 </div>
@@ -180,24 +222,26 @@
                 <div class="holder clearfix">
                     <div class="row">
                         <p class="text">
-                            Se společností Netfinity jsme navázali spolupráci před 2 lety. Za tuto dobu jsme měli možnost spolupracovat
-                            na řadě projektů. Netfinity přichází stále s novými nápady a možnostmi, jak by se daly naše projekty řešit
-                            více efektivně, což velmi oceňujeme. Máme tak agenturu, která se nesoustředí pouze na svěřené úkoly, ale
-                            stále nám přináší něco nového.”
+                            &#8220;Se společností Netfinity jsme navázali spolupráci před 2 lety. Za tuto dobu jsme měli možnost spolupracovat na řadě projektů. Netfinity se na projekty dívá našima očima a přichází stále s novými nápady a možnostmi, jak by se&nbsp;daly řešit více efektivně, což velmi oceňujeme. Máme tak agenturu, která se&nbsp;nesoustředí pouze na svěřené úkoly, ale stále nám přináší něco nového. U&nbsp;kampaní si ceníme nadprůměrných výsledků, kterých se nám společně daří&nbsp;dosáhnout.&#8221;
                         </p>
                         <p>
-                            <strong>Arnold Ptasznik</strong><br>Marketing manager, Provident a.s.
+                            <strong>Arnold Ptasznik</strong><br>Marketing Specialist, Provident Financial s.r.o.
                         </p>
                     </div>
                     <div class="row" style="display: none;">
                         <p class="text">
-                            dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
-                            vel eum iriure dolor in hendrerit in vulputate velit esse moles
+                            &#8220;Společnost Netfinity jsme oslovili s poptávkou na vytvoření nových webových stránek naší společnosti. Jsme moderní společnost, která se zabývá dovozem a prodejem francouzského designového nábytku. Snažili jsme se tedy, aby náš dodavatel přesně pochopil, jak se chceme prezentovat našim zákazníkům, a toho se nám podařilo docílit právě s Netfinity. Náš nový web není jenom plný důležitých informací, ale také přesně odráží filosofii naší společnosti.&#8221;
                         </p>
                         <p>
-                            <strong>Arnold Ptasznik</strong><br>Marketing manager, Provident a.s.
+                            <strong>Jiří Poulíček</strong><br>Majitel Delmas s.r.o., zastoupení Ligne Roset v ČR
+                        </p>
+                    </div>
+                    <div class="row" style="display: none;">
+                        <p class="text">
+                            &#8220;Společnost Netfinity je týmem opravdových profesionálů, jejíž služby lze jedině doporučit. Oceňujeme zejména kreativitu a spolehlivost. Tam, kde docházely naše vlastní nápady, byla připravena další možná řešení, které členové týmu Netfinity pohotově předkládali. Společnost Netfinity jednoznačně naplnila naše představy o realizaci profesionální webové&nbsp;prezentace.&#8221;
+                        </p>
+                        <p>
+                            <strong>Petra Horáková Krištofová</strong><br>Marketing Manager, Hyposervis a.s.
                         </p>
                     </div>
                 </div>
@@ -218,7 +262,7 @@
                     <img src="img/face-monster-3.png" alt="" />
                     <p class="clearfix">
                         <strong>Jiří Kutil</strong>
-                        <span>Client Service Director</span>
+                        <span>Managing Director</span>
                         <a href="mailto:jiri.kutil@netfinity.cz" title="jiri.kutil@netfinity.cz">jiri.kutil@netfinity.cz</a>
                     </p>
                 </li>
@@ -226,7 +270,7 @@
                     <img src="img/face-monster-1.png" alt="" />
                     <p class="clearfix">
                         <strong>Veronika Čunková</strong>
-                        <span>Managing Director</span>
+                        <span>Client Service Director</span>
                         <a href="mailto:veronika.cunkova@netfinity.cz" title="veronika.cunkova@netfinity.cz">veronika.cunkova@netfinity.cz</a>
                     </p>
                 </li>
@@ -271,9 +315,9 @@
         <div class="contact" id="contact">
             <h2>Kontakt</h2>
             <p>
-                Telefon: <strong class="phone">604 547 132</strong>     E-mail:  <strong>
-                <a href="mailto:info@netfinity.cz" title="info@netfinity.cz">info@netfinity.cz</a></strong><br>
-                Sídlo:  <strong>Tusarova 55, P7</strong> <a class="map" href="" title=""><span class="circle"></span><span class="arrow"></span></a>
+                Telefon: <strong class="phone">604&nbsp;547&nbsp;132</strong>
+                Email:&nbsp;<strong><a href="mailto:info@netfinity.cz" title="info@netfinity.cz">info@netfinity.cz</a></strong>
+                Sídlo:&nbsp;<strong>Tusarova&nbsp;55,&nbsp;P7</strong> <a class="map" href="ddd" title="ddd"><span class="circle"></span><span class="arrow"></span></a>
             </p>
             <form class="clearfix" method="post" action="#contact">
                 <div class="row">
@@ -318,8 +362,8 @@
             </div>
         </div>
         <footer>
-            Netfinity Digital Media s.r.o., Spisová značka: C 144678 vedená u rejstříkového soudu v Praze,<br>
-            IČ: 28480392, DIČ: CZ28480392, Sídlo: Praha 7, Tusarova 1215/55, PSČ 17000
+            <p>Netfinity Digital Media s.r.o., Spisová značka: C 144678 vedená u rejstříkového soudu v Praze,
+            IČ: 28480392, DIČ: CZ28480392, Sídlo: Praha 7, Tusarova 1215/55, PSČ 17000</p>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
