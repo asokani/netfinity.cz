@@ -106,9 +106,8 @@ textarea {
 body {
     font-family: 'geogrotesque_rgregular', Verdana, Verdana, Geneva, sans-serif;
     font-size: 28px;
-    color: #333333;
+    color: #494949;
 }
-
 a,
 a:visited {
     color: #0066cc;
@@ -116,54 +115,51 @@ a:visited {
 a:hover {
     color: #00406a;
 }
-
 header {
     background-color: #0099ff;
     background: url("../img/wave-1.png") bottom right no-repeat,
-        url("../img/highlight.png") center bottom no-repeat,
+		url("../img/wave-4.png") top center no-repeat,
+		url("../img/monsters-3.png") left bottom no-repeat,
+		url("../img/highlight.png") center bottom no-repeat,
         #0099ff;
     padding: 0;
+	margin-top: 30px;
 }
-header .menu {
-    float:left;
-    width:100%;
-    overflow:hidden;
-    position:relative;
-    padding: 30px 0 0;
+header .ico {
+	padding: 0 0 180px;
+    text-align: center;
+    margin: 0 auto;
 }
-header menu {
-    clear:left;
-    float:left;
+header .ico img {
+	padding: 0px;
+	margin: 0;
+}
+header ico {
+    float:center;
     list-style:none;
     margin:0;
     padding:0;
     position:relative;
-    left:50%;
     text-align:center;
 }
+header p {
+	color: #aaddff;
+	font-size: 66px;
+	padding: 0 0 60px;
+    max-width: 970px;
+    text-align: center;
+    margin: 0 auto;
+	letter-spacing: 0.7px;
+}
 header li {
-    display:block;
-    float:left;
+    display:inline-block;
+    float:center;
     list-style:none;
     margin:0;
     position:relative;
-    right:50%;
-}
-header li a:visited,
-header li a {
-    color: #aedfff;
-    display: block;
-    text-decoration: none;
-    text-transform: none;
-    padding: 0 22px;
-    white-space: nowrap;
-	font-size: 26px;
-}
-header li a:hover {
-    color: #003366;
 }
 header .logo {
-    padding: 80px 0 40px;
+    padding: 110px 0 0;
     clear: both;
 }
 header  h1 {
@@ -176,25 +172,19 @@ header  h1 img {
     width: 100%;
     display: block;
     margin: 0 auto;
-    max-width: 836px;
-    max-height: 246px;
+    max-width: 970px;
+    max-height: 285px;
 }
-.contact .monster,
-header .monster {
+.contact .monster {
     margin: 0 auto;
     width: 30%;
     max-width: 400px;
 }
-.contact .monster img,
-header .monster img {
-    width: 100%;
-    max-width: 380px;
-    display: block;
-    margin-left: -45%;
-}
 .contact .monster img {
-    max-width: 256px;
-    margin-left: 70%;
+    width: 100%;
+    display: block;
+    max-width: 313px;
+    margin-left: 100%;
 }
 .results p,
 .team p,
@@ -205,31 +195,24 @@ header .monster img {
     max-width: 970px;
     text-align: center;
     margin: 0 auto;
-	letter-spacing: 0.5px;
-}
-.welcome p {
-    color: #84ceff;
+	letter-spacing: 0.7px;
 }
 .results p,
 .team p,
-.path p {
-    padding: 30px 0 100px;;
-}
-.solutions p {
-    padding: 30px  0 100px;
+.path p,
+.solutions p,
+.welcome p {
+    padding: 30px 0 100px;
 }
 
-.welcome {
-    padding: 80px 0;
-    background: #00406a;
-}
 .solutions {
     padding: 0px 0px 0;
 }
 .team,
 .results,
-.path {
-    padding: 0px 0 100px;
+.path,
+.solutions {
+    padding: 0px 0 120px;
     border-top: 1px solid #cccccc;
     position: relative;
 }
@@ -242,7 +225,9 @@ h2 {
     margin: 0;
     padding: 0;
     line-height: 90px;
+	
 }
+
 h3 {
     font-size: 26px;
     color: #333333;
@@ -255,9 +240,9 @@ h3 {
 .solutions h3 {
     padding: 0 0 30px;
 }
-.solutions {
+/* .solutions {
     background: url(../img/wave-2.png) center top no-repeat;
-}
+} */
 .solutions ul {
     margin: 0;
     padding: 0;
@@ -273,14 +258,14 @@ h3 {
     text-align: center;
     border-bottom: 1px solid #ebebeb;
 }
-.solutions .devices {
+.welcome .devices {
     width: 80%;
     height: auto;
     position: relative;
     margin: 0 auto;
-    padding: 120px 0 70px;
+    padding: 20px 0 140px;
 }
-.solutions .devices img {
+.welcome .devices img {
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -310,7 +295,6 @@ h3 {
     padding: 0 2%;
 }
 
-
 .path h3 {
     text-align: left;
 }
@@ -321,7 +305,8 @@ h3 {
 }
 .team:before,
 .results:before,
-.path:before {
+.path:before,
+.solutions:before {
     content: "";
     width: 147px;
     height: 19px;
@@ -332,6 +317,7 @@ h3 {
     position: relative;
 }
 
+.welcome h2,
 .contact h2,
 .solutions h2,
 .team h2,
@@ -342,8 +328,29 @@ h3 {
 .contact h2 {
     color: white;
 }
-.solutions h2 {
-    padding: 100px 0 0;
+.welcome h2 span {
+    background: url("../img/ico-welcome-1.png") center left no-repeat;
+	padding: 0 0 0 110px;
+}
+.solutions h2 span {
+    background: url("../img/ico-solutions-1.png") center left no-repeat;
+	padding: 0 0 0 110px;
+}
+.path h2 span {
+    background: url("../img/ico-path-1.png") center left no-repeat;
+	padding: 0 0 0 110px;
+}
+.results h2 span {
+    background: url("../img/ico-results-1.png") center left no-repeat;
+	padding: 0 0 0 110px;
+}
+.team h2 span {
+    background: url("../img/ico-team-1.png") center left no-repeat;
+	padding: 0 0 0 110px;
+}
+.contact h2 span {
+    background: url("../img/ico-contact-1.png") center left no-repeat;
+	padding: 0 0 0 110px;
 }
 .results .references {
     list-style-type: none;
@@ -372,12 +379,12 @@ h3 {
     left: 0;
 }
 footer {
-    line-height: 32px;
+    line-height: 30px;
     text-align: center;
-    color: #84CEFF;
+    color: #0099ff;
     background: #00406a;
-    padding: 70px 60px;
-    font-size: 20px;
+    padding: 60px 0 60px;
+    font-size: 18px;
 	letter-spacing: 0.5px;
 }
 footer p {
@@ -414,7 +421,7 @@ footer p {
     padding: 80px 0 50px;
 }
 .results .testimonials .row {
-    font-size: 24px;
+    font-size: 20px;
     padding: 0;
     width: 100%;
 }
@@ -423,8 +430,13 @@ footer p {
     padding: 0px 0 30px;
 }
 .testimonials .row p.text {
-    font-style: italic;
+    font-style: normal;
     padding: 30px 0 30px;
+	max-width: 900px;
+	line-height: 1.6;
+}
+.testimonials .row p strong {
+	letter-spacing: 0;
 }
 .team p {
     padding: 30px 0 50px;
@@ -433,7 +445,7 @@ footer p {
     padding: 0;
 }
 .team ul p {
-    line-height: 46px;
+    line-height: 40px;
     font-size: 22px;
     padding: 40px 0 20px;
 
@@ -447,11 +459,13 @@ footer p {
     margin: 0 auto;
     text-overflow: ellipsis;
     text-align: center;
+	text-decoration: none;
     overflow: hidden;
 }
 .team ul p strong {
     font-size: 120%;
-
+	color: #333333;
+	letter-spacing: 0;
 }
 .contact {
     background: url("../img/wave-5.png") left bottom no-repeat,
@@ -482,7 +496,7 @@ footer p {
     color: #00406a;
 }
 .contact form {
-    max-width: 1030px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 0 180px;
 }
@@ -493,7 +507,7 @@ footer p {
 }
 .contact form .row div {
     background: #92d5ff;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 10px 20px;
     margin: 16px 0;
 }
@@ -511,9 +525,9 @@ footer p {
     height: 32px;
 }
 .contact form .row div.submit {
-    background: #02426c;
+    background: #0079C9;
     float: right;
-    width: 50%;
+    width: 40%;
     margin: 0;
     padding: 0;
 }
@@ -537,28 +551,28 @@ footer p {
 }
 .more-see {
     display: block;
-    margin: 0 auto;
+    margin: 80px auto 0;
     position: relative;
-    width: 70px;
-    height: 70px;
+    width: 77px;
+    height: 77px;
 }
 .more-see .circle {
-    width: 70px;
-    height: 70px;
+    width: 77px;
+    height: 77px;
     position: relative;
     background: #0079c9;
     display: block;
-    border-radius: 35px;
+    border-radius: 38px;
 }
 .more-see .more {
     color: white;
     display: block;
     position: absolute;
     left: 0px;
-    width: 70px;
-    top: 18px;
+    width: 77px;
+    top: 20px;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
 }
 .map {
     display: inline-block;
@@ -592,14 +606,22 @@ footer p {
 
 
 @media all and (max-width: 960px) {
-    header .monster img {
-        margin-left: -30%;
-    }
     header {
-        background-color: #0099ff;
-        background: url("../img/highlight.png") center bottom no-repeat,
-            #0099ff;
-    }
+		background-color: #0099ff;
+		background: url("../img/wave-1.png") bottom right no-repeat,
+			url("../img/wave-4.png") top center no-repeat,
+			url("../img/monsters-4.png") left bottom no-repeat,
+			url("../img/highlight.png") center bottom no-repeat,
+			#0099ff;
+		padding: 0;
+		margin-top: 30px;
+	}
+	header p {
+		font-size: 62px;
+	}
+	b, strong {
+    	font-weight: normal;
+	}
     .contact,
     .path,
     .team,
@@ -610,10 +632,7 @@ footer p {
     }
     .contact {
         padding-bottom: 0;
-        padding-top: 10%;
-    }
-    .welcome {
-        padding-top: 10%;
+        padding-top: 6%;
     }
     .contact h2,
     .solutions h2,
@@ -644,15 +663,11 @@ footer p {
         padding: 6px 10px 6px 0;
         float: left;
     }
-
     .solutions ul li:last-child:after {
         content: ""
     }
     .solutions ul li:after {
         content: ", "
-    }
-    .path .cols {
-        padding-bottom: 5%;
     }
     .path .row,
     .solutions .row {
@@ -661,11 +676,11 @@ footer p {
         width: 100%;
         padding: 0;
     }
-    .solutions .devices {
-        padding: 60px 0 30px;
+    .welcome .devices {
+        padding: 20px 0 30px;
     }
     .results .references {
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
     .navigation a {
         width: 14px;
@@ -682,7 +697,7 @@ footer p {
         padding: 0;
         text-align: center;
     }
-    .team ul p strong ,
+    .team ul p strong,
     .team ul p span,
     .team ul p a {
         float: none;
@@ -703,14 +718,8 @@ footer p {
     }
     .team li {
         width: auto;
-        padding: 0;
+        padding: 10px 0;
         float: none;
-    }
-    .contact {
-        background:
-            url("../img/wave-4.png") top center no-repeat,
-            url("../img/highlight.png") bottom center no-repeat,
-            #0099ff;
     }
     .contact p {
         padding: 30px 0 50px;
@@ -722,34 +731,86 @@ footer p {
         float: none;
         width: 100%;
     }
+	.contact .monster img {
+    	margin-left: 140%;
+	}
+	.more-see {
+		margin: 50px auto 0;
+	}
 }
 
 @media all and (max-width: 480px) {
     body {
-        font-size: 20px;
+        font-size: 18px;
     }
     h2 {
-        font-size: 54px;
-        line-height: 65px;
-
+        font-size: 30px;
     }
     h3 {
         font-size: 18px;
     }
+	.contact h2,
+	.welcome h2,
+    .solutions h2,
+    .team h2,
+    .results h2,
+    .path h2 {
+        padding: 40% 0 0;
+    }
+	header {
+		margin-top: 10px;
+	}
     header .logo {
-        padding: 20px 0;
+        padding: 60px 0 0;
     }
-    header .menu {
-        padding: 5px 0;
+	header .ico {
+		padding: 0 0 250px;
+	}
+	header .ico img {
+		padding: 5px;
+		margin: 0;
+	}
+	header p {
+		font-size: 35px;
+		padding: 10px 0 220px;
+	}
+    .path,
+    .solutions,
+	.team,
+	.results {
+        padding: 0% 10% 15%;
     }
-    header li a:visited,
-    header li a {
-	font-size: 13px;
-    padding: 0 5px;
-	color: #FFFFFF;
-    }
-    .solutions p {
-        padding: 20px 0;
+	.welcome h2 span {
+    	background: url("../img/ico-welcome-1.png") top center no-repeat;
+		padding: 85px 0 0;
+	}
+	.solutions h2 span {
+		background: url("../img/ico-solutions-1.png") top center no-repeat;
+		padding: 85px 0 0;
+	}
+	.path h2 span {
+		background: url("../img/ico-path-1.png") top center no-repeat;
+		padding: 85px 0 0;
+	}
+	.results h2 span {
+		background: url("../img/ico-results-1.png") top center no-repeat;
+		padding: 85px 0 0;
+	}
+	.team h2 span {
+		background: url("../img/ico-team-1.png") top center no-repeat;
+		padding: 85px 0 0;
+	}
+	.contact h2 span {
+		background: url("../img/ico-contact-1.png") top center no-repeat;
+		padding: 85px 0 0;
+	}
+    .solutions p,
+	.welcome p,
+	.path p,
+	.contact p,
+	.results p,
+	.team p {
+        padding: 0 0 20px;
     }
     .solutions ul li:first-child,
     .solutions ul li {
@@ -760,26 +821,59 @@ footer p {
         font-size: 13px;
     }
     .navigation a {
-        width: 8px;
-        height: 8px;
+        width: 10px;
+        height: 10px;
         margin: 0 5px;
+    }
+	.results .references {
+        padding: 10% 0 15%;
     }
     .results .testimonials .row {
         font-size: 17px;
     }
-    .contact p,
+	.references a,
+	.references a:visited,
+	.references a:hover {
+		font-size: 16px;
+	}
     .team ul p {
         font-size: 17px;
         line-height: 26px;
     }
-    .contact p .phone {
-    padding-right: 0px;
+	.testimonials,
+	.navigation-testimonials,
+	.more-see,
+	.team ul,
+	header .ico {
+		display: none;
+	}
+	.contact p {
+        line-height: 36px;
+		font-size: 20px;
     }
+    .contact p .phone {
+    	padding-right: 0px;
+    }
+	.contact .monster {
+		visibility: hidden;
+	}
+	.contact form {
+        padding: 20px 0 0 0;
+    }
+	.contact form select,
+	.contact form textarea,
+	.contact form input {
+		font-size: 22px;
+	}
     footer {
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 24px;
         padding: 10%;
     }
+	.map {
+		display: block;
+		margin: 10px auto 0;
+	}
 }
 
 
