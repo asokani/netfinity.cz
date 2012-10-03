@@ -603,7 +603,121 @@ footer p {
     left: 12px;
 }
 
+#reference-detail {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+#reference-detail .scroll {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+    overflow-y: scroll;
+}
+#reference-detail .layer {
+    background: #e3e3e3;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    opacity: .93;
+}
+#reference-detail .detail {
+    margin: 3% auto;
+    z-index: 200;
+    position: relative;
+    width: 70%;
+    background: white;
+}
+#reference-detail .images {
+    float: left;
+    width: 60%;
+}
+#reference-detail .images div {
+    padding: 8% 8% 0 8%;
+}
+#reference-detail .images div img {
+    width: 100%;
+    display: block;
+    margin: 0 0 8% 0;
+}
+#reference-detail .info {
+    float: left;
+    width: 40%;
+}
+#reference-detail .info div {
+    padding: 8%;
+    color: #333333;
+    font-size: 18px;
+    text-align: left;
+}
 
+#reference-detail .info h1 {
+    margin: 0 0 60px 0;
+    padding: 0;
+    color: #0099ff;
+    font-size: 32px;
+    text-align: left;
+    line-height: normal;
+
+}
+
+#reference-detail .info h2 {
+    color: #333333;
+    margin: 35px 0;
+    padding: 0;
+    font-size: 22px;
+    text-align: left;
+    line-height: normal;
+    font-weight: bold;
+}
+#reference-detail .info p {
+    margin: 20px 0;
+}
+
+#reference-detail .info p.large {
+    font-size: 22px;
+}
+
+#reference-detail .info a,
+#reference-detail .info a:visited,
+#reference-detail .info a:hover {
+    color: #0079c9;
+    text-decoration: underline;
+}
+
+#reference-detail .info a:hover {
+    text-decoration: none;
+}
+
+#reference-detail a.close {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #0079c9;
+    border-radius: 25px;
+    position: relative;
+    position: absolute;
+    right: -25px;
+    top: -25px;
+}
+#reference-detail a.close span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    background: url("../img/close.png") no-repeat;
+}
 
 @media all and (max-width: 960px) {
     header {
@@ -737,6 +851,26 @@ footer p {
 	.more-see {
 		margin: 50px auto 0;
 	}
+    #reference-detail .info div {
+        font-size: 13px;
+    }
+    #reference-detail .info h1 {
+        font-size: 22px;
+        margin: 0 0 42px 0;
+    }
+    #reference-detail .info h2 {
+        font-size: 15px;
+        margin: 25px 0;
+    }
+    #reference-detail .info p {
+        margin: 14px 0;
+    }
+    #reference-detail .info p.large {
+        font-size: 13px;
+    }
+    #reference-detail .detail .close {
+        display: none;
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -874,6 +1008,12 @@ footer p {
 		display: block;
 		margin: 10px auto 0;
 	}
+    #reference-detail .images {
+        display: none;
+    }
+    #reference-detail .info {
+        width: 100%
+    }
 }
 
 

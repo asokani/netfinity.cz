@@ -63,6 +63,35 @@ class Scroller
     this.navClick(null, @current_page, true)
 
 
+class References
+  constructor: ->
+    $('#results a').click(this.show)
+    $("#reference-detail .scroll").click(this.hide)
+
+  show: (event) =>
+    this.name = $(event.target).closest("a").attr("data-detail")
+    return false if this.name is undefined
+    image_count = $("#detail-#{this.name} .images").attr("data-count")
+    $("#detail-#{this.name} .images div").empty()
+    for number in [1..image_count]
+      $("#detail-#{this.name} .images div").append(
+        $("<img>", {
+          src: "./img/references/#{this.name}-#{number}.jpg"
+        })
+      )
+    $("body").css("overflow", "hidden")
+    $("#reference-detail").show();
+    $("#detail-#{this.name}").show();
+    $("#detail-#{this.name} .close").click(this.hide)
+    return false
+
+  hide: (event) =>
+    $("#reference-detail .detail").hide();
+    $("#reference-detail").hide();
+    $("body").css("overflow", "scroll")
+    return false
+
+
 class Form
   fields: {
     "name": "Jméno",
@@ -115,6 +144,7 @@ jQuery ->
   new Form()
   new Scroller("references", 3, {"padding": 0.02, "width": 0.29333})
   new Scroller("testimonials", 1, {"padding": 0, "width": 1})
+  new References()
 
   $('.more-see').click((event) ->
     node = $(event.target).closest("a")

@@ -130,11 +130,11 @@
             <div class="references">
                 <div class="holder clearfix">
                     <div class="row">
-                        <a href="#results" title="Provident">
+                        <a href="#results" title="Provident" data-detail="provident">
                             <img src="img/references/provident-thumbnail.png" /><br>
                             Provident                        </a>                    </div>
                     <div class="row">
-                        <a href="#results" title="Káva Růžová">
+                        <a href="#results" title="Káva Růžová" data-detail="kava">
                             <img src="img/references/coffee-thumbnail.png" /><br>
                             Káva Růžová                        </a>                    </div>
                     <div class="row">
@@ -322,6 +322,78 @@
             <p>Netfinity Digital Media s.r.o.,<br />Spisová značka: C&nbsp;144678 vedená u&nbsp;rejstříkového soudu v&nbsp;Praze,<br />
             IČ:&nbsp;28480392, DIČ:&nbsp;CZ28480392, Sídlo: Praha&nbsp;7, Tusarova&nbsp;1215/55,&nbsp;PSČ&nbsp;17000</p>
         </footer>
+
+        <div id="reference-detail" style="display: none;">
+            <div class="scroll">
+                <div id="detail-provident" class="detail clearfix"  style="display: none;">
+                    <a href="#" class="close"><span></span></a>
+                    <div class="images" data-count="2">
+                        <div>
+
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <h1>Provident Financial s.r.o.</h1>
+                            <h2>Řešení</h2>
+                            <p class="large"><strong>Design a vývoj webových stránek, CMS, SEO a PPC kampaně, Sociální sítě, Copywriting</strong></p>
+                            <h2>Realizace</h2>
+                            <p class="large"><strong>2011 - 2012</strong></p>
+                            <h2>Názor klienta</h2>
+                            <p>
+                                <em>“Se společností Netfinity jsme navázali spolupráci před 2 lety. Za tuto dobu jsme měli možnost
+                                spolupracovat na řadě projektů. Netfinity přichází stále s novými nápady a možnostmi,
+                                jak by se daly naše projekty řešit více efektivně, což velmi oceňujeme. Máme tak agenturu,
+                                která se nesoustředí pouze na svěřené úkoly, ale stále nám přináší něco nového.”</em>
+                                <br><br>
+                                <strong>Arnold Ptasznik</strong><br>
+                                Marketing manager, Provident a.s.
+                            </p>
+                            <h2>Odkazy</h2>
+                            <p class="large">
+                                <a href="http://www.provident.cz" title="Provident půjčky">www.provident.cz</a><br>
+                                <a href="http://www.providentvidea.cz" title="Provident Videa">www.providentvidea.cz</a><br>
+                                <a href="http://www.providentoz.cz" title="Provident Obchodní zástupce">www.providentoz.cz</a><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="detail-kava" class="detail clearfix"  style="display: none;">
+                    <a href="#" class="close"><span></span></a>
+                    <div class="images" data-count="2">
+                        <div>
+
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <h1>Káva</h1>
+                            <h2>Řešení</h2>
+                            <p class="large"><strong>Design a vývoj webových stránek, CMS, SEO a PPC kampaně, Sociální sítě, Copywriting</strong></p>
+                            <h2>Realizace</h2>
+                            <p class="large"><strong>2011 - 2012</strong></p>
+                            <h2>Názor klienta</h2>
+                            <p>
+                                <em>“Se společností Netfinity jsme navázali spolupráci před 2 lety. Za tuto dobu jsme měli možnost
+                                    spolupracovat na řadě projektů. Netfinity přichází stále s novými nápady a možnostmi,
+                                    jak by se daly naše projekty řešit více efektivně, což velmi oceňujeme. Máme tak agenturu,
+                                    která se nesoustředí pouze na svěřené úkoly, ale stále nám přináší něco nového.”</em>
+                                <br><br>
+                                <strong>Arnold Ptasznik</strong><br>
+                                Marketing manager, Provident a.s.
+                            </p>
+                            <h2>Odkazy</h2>
+                            <p class="large">
+                                <a href="http://www.provident.cz" title="Provident půjčky">www.provident.cz</a><br>
+                                <a href="http://www.providentvidea.cz" title="Provident Videa">www.providentvidea.cz</a><br>
+                                <a href="http://www.providentoz.cz" title="Provident Obchodní zástupce">www.providentoz.cz</a><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layer"></div>
+        </div>
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
