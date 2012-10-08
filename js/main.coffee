@@ -86,6 +86,8 @@ class References
     return false
 
   hide: (event) =>
+    if event.target.nodeName == "A"
+      return
     $("#reference-detail .detail").hide();
     $("#reference-detail").hide();
     $("body").css("overflow", "scroll")
